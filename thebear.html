@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Forest ghost and one bear</title>
+<style>
+    canvas {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: transparent;
+    }
+    #background {
+        z-index: -4;
+    }
+    #bearAnimation {
+        z-index: -3;
+    }
+    #ghosts {
+        z-index: -2;
+    }
+    #bulletCanvas {
+        z-index: -1;
+    }
+</style>
+</head>
+<body >
+<canvas style="border:1px solid #ffffff;" id="background">
+</canvas>
+<canvas id="ghosts">
+</canvas>
+<canvas id="bulletCanvas">
+</canvas>
+<canvas id="bearAnimation">
+ Your browser does not support the HTML 5 Canvas.
+</canvas>
+<script src="bearSprite.js"></script>
+</body>
+</html>
